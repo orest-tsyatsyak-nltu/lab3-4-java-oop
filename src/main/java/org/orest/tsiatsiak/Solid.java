@@ -1,11 +1,11 @@
 package org.orest.tsiatsiak;
 
-public abstract class Solid {
+public interface Solid {
 
-    public abstract double getVolume();
+    double getVolume();
 
-    public abstract double getBasisArea();
+    double getBasisArea();
 
-    public abstract double getFullArea();
+    double getFullArea();
 
 }

@@ -4,7 +4,7 @@ import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
-public class Cone extends Solid {
+public class Cone implements Solid {
 
     private final double R;
 

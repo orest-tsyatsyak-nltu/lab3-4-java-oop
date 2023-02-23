@@ -3,7 +3,7 @@ package org.orest.tsiatsiak;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
-public class SquarePyramid extends Solid {
+public class SquarePyramid implements Solid {
 
     private final double A;
 
